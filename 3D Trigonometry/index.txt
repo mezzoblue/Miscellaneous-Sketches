@@ -1,0 +1,17 @@
+3D Trigonometry Experiments
+
+These are a few sketches I built to refresh my long-dormant trig skills.
+
+	randomBlocks
+	Randomly-sized blocks rotated around a central circle.
+
+	stringOfBlocks
+	Randomly-sized blocks rotated around a central axis.
+
+	mathematicalBlocks
+	A few different ways of rotating random and non-random
+	blocks around a circle.
+
+See the 'interaction' tab for the controls used to manipulate the view.
+
+Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details.

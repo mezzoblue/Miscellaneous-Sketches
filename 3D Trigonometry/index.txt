@@ -14,4 +14,4 @@ These are a few sketches I built to refresh my long-dormant trig skills.
 
 See the 'interaction' tab for the controls used to manipulate the view.
 
-Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details.
+Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details. Hit the spacebar to regenerate a palette while the sketch is running.

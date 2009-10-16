@@ -1,0 +1,15 @@
+Bezier Stalks
+
+While experimenting with the Processing bezier function, I put together a few sketches like these that manipulate multiple bezier curves in different ways.
+
+	StalkGrid
+	A few hundred curves on a grid that gently sway, each 
+	according to an individual Perlin noise generated path.
+
+	Blossom
+	Similar to StalkGrid; hundreds of swaying curves, but
+	arranged in a sort of 3D blossom shape instead.
+
+See the 'interaction' tab for the controls used to manipulate the view.
+
+Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details.

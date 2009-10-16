@@ -10,6 +10,10 @@ While experimenting with the Processing bezier function, I put together a few sk
 	Similar to StalkGrid; hundreds of swaying curves, but
 	arranged in a sort of 3D blossom shape instead.
 
+	RandomTangles
+	Setting loose a virtual worm that traces a path through
+	3D space, then storing that path for later manipulation
+
 See the 'interaction' tab for the controls used to manipulate the view.
 
-Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details.
+Palettes are derived from a random image in the /data/ folder. See http://exnihilo.mezzoblue.com/2009/09/generated-palettes-from-photos/ for full details. Hit the spacebar to regenerate a palette while the sketch is running.

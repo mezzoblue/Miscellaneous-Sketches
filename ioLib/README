@@ -1,0 +1,52 @@
+
+
+ioLib
+http://exnihilo.mezzoblue.com/
+
+
+------------------------------
+
+
+A starting-point library that formalizes some of the common input / output functions I seem to rebuild and tweak every time I create a new sketch.
+
+Rather than re-invent the wheel every time, I've built this framework with reusability in mind. It doesn't do much on its own, but it adds some fairly useful functions to new sketches.
+
+
+------------------------------
+
+
+Basic functions so far:
+
+BITMAP AND VECTOR OUTPUT
+
+	* pressing 's' saves a screencap as PNG
+	* pressing 'p' saves a screencap as PDF
+		- 3D mode is a bit quirky; the raw triangles are saved, even 
+		  for 2D shapes. The background colour doesn't save either.
+
+2D / 3D TOGGLE
+
+	So far everything works with both 2D and 3D renderers, switching is
+	a simple matter of adjusting the sceneDimensions variable in the
+	user-configurable settings.
+
+PALETTE GENERATION FROM RANDOM IMAGES
+
+	Any images (PNG, JPG or GIF) dropped into data/paletteSource will be 
+	used as input for the random palette generation function. The
+	paletteCount variable in the user-configurable settings controls
+	how large the palette will be.
+
+
+MOUSE AND KEYBOARD INTERACTION
+  
+	* click and drag the mouse to rotate in 2D / 3D space
+  
+	* pressing '+' zooms in, '-' zooms out
+	* arrow keys move the scene around
+		- holding Shift increases the offset 10x
+		- holding Ctrl increases the offset 100x
+		- holding Ctrl + Shift increases the offset 1000x
+
+	* pressing 'c' saves the palette
+	* pressing 'r' resets the palette

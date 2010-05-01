@@ -1,7 +1,7 @@
 /*
 
  Bezier Stalk Grid
- dave@mezzoblue.com
+ http://exnihilo.mezzoblue.com/
  July 2009
  
 */

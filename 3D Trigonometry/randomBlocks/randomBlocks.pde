@@ -1,7 +1,7 @@
 /*
 
  Blocks Around a Circle, Supine and Random
- dave@mezzoblue.com
+ http://exnihilo.mezzoblue.com/
  August 2009
  
 */

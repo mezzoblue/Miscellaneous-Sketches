@@ -1,7 +1,7 @@
 /*
 
  Random Bezier Tangles in 3D
- dave@shea.net
+ http://exnihilo.mezzoblue.com/
  August 2009
  
 */

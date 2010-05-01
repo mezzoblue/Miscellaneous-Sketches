@@ -1,7 +1,7 @@
 /*
 
  3D Line Flower, with variations
- dave@mezzoblue.com
+ http://exnihilo.mezzoblue.com/
  July 2009
  
 */

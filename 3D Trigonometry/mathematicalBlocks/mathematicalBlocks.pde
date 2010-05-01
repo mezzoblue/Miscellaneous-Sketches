@@ -1,7 +1,7 @@
 /*
 
  Blocks Around a Circle, Mathematical Variations
- dave@mezzoblue.com
+ http://exnihilo.mezzoblue.com/
  August 2009
  
 */

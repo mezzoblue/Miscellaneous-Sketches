@@ -2,7 +2,7 @@
 
  Blocks on a String, Variations
    * see Block.pde for the variations
- dave@mezzoblue.com
+ http://exnihilo.mezzoblue.com/
  August 2009
  
 */

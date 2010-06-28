@@ -67,12 +67,31 @@ void draw() {
 
     // this is about where you'd start doing useful stuff
 
-    // how about a rectangle?
-    rect(-50, -50, 100, 100);
+    // how about a couple of rectangles for example?
+    translate(0, 0, -25);
+    stroke(scene.palette[1]);
+    fill(scene.palette[2]);
+    rect(-200, -200, 100, 100);
 
+    translate(0, 0, 50);
+    stroke(scene.palette[3]);
+    fill(scene.palette[4]);
+    rect(-50, -50, 75, 75);
 
+    translate(0, 0, -25);
+    stroke(scene.palette[5]);
+    fill(scene.palette[6]);
+    rect(100, 100, 175, 175);
 
+    translate(0, 0, -75);
+    stroke(scene.palette[7]);
+    fill(scene.palette[8]);
+    rect(-200, 100, 125, 125);
 
+    translate(0, 0, 150);
+    stroke(scene.palette[7]);
+    fill(scene.palette[8]);
+    rect(100, -200, 150, 150);
   }
 
   // write the PDF, if needed

@@ -313,3 +313,20 @@ ArrayList listFileNames(String dir) {
 String getExtension(String file) {
   return file.substring(file.length() - 3).toLowerCase();
 };
+
+
+
+// add an alpha value to an existing color
+// adapted from Processing docs on right/left shift functions
+color addAlpha(color col, int opacity) {
+  //  int a = (col >> 24) & 0xFF;
+  int r = (col >> 16) & 0xFF;  // Faster way of getting red(argb)
+  int g = (col >> 8) & 0xFF;   // Faster way of getting green(argb)
+  int b = col & 0xFF;          // Faster way of getting blue(argb)
+
+  opacity = opacity << 24;
+  r = r << 16;
+  g = g << 8;
+  color newCol = opacity | r | g | b;
+  return(newCol);
+}

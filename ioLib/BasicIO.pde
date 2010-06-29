@@ -218,18 +218,18 @@ void keyPressed() {
     }
     save("palette-" + int(random(0, 9999)) + ".png");
   }
-  // if 'p' is pressed, save out a PDF
-  if (int(key) == 112) {
+  // if 'P' is pressed, save out a PDF
+  if (int(key) == 80) {
     scene.writePDF = true;
+  }
+  // if 'p' is pressed, save out a PNG image
+  if (int(key) == 112) {
+    save(scene.filePrefix + "-" + int(random(0, 9999)) + ".png");
   }
   // if 'r' is pressed, reload the palette
   if (int(key) == 114) {
     scene.loadPalette();
     scene.viewRedraw = true;
-  }
-  // if 's' is pressed, save out a PNG image
-  if (int(key) == 115) {
-    save(scene.filePrefix + "-" + int(random(0, 9999)) + ".png");
   }
 
 }

@@ -19,8 +19,8 @@ Basic functions so far:
 
 BITMAP AND VECTOR OUTPUT
 
-	* pressing 's' saves a screencap as PNG
-	* pressing 'p' saves a screencap as PDF
+	* pressing 'p' saves a screencap as PNG
+	* pressing 'P' saves a screencap as PDF
 		- 3D mode is a bit quirky; the raw triangles are saved, even 
 		  for 2D shapes. The background colour doesn't save either.
 

@@ -17,6 +17,7 @@ import processing.opengl.*;
 // user-configurable settings
 //
 // set this to 2 for flat 2D, 3 for openGL 3D
+// (make sure to toggle the size() declaration below if changing)
 int sceneDimensions = 3;
 
 // how many random colours will be generated?
@@ -31,7 +32,16 @@ Scene scene;
 
 void setup() {
 
-  // set scene width, height, and dimensions
+  // set scene width, height, and dimensions of a 3D screen
+  size(600, 600, P3D);
+
+  // uncomment this size() declaration if 2D, and comment out the previous one
+  //size(600, 600, P2D);
+
+  // turn on 4x sampling anti-aliasing
+  // (will not work on every system, change to 2 if there are issues)
+  smooth(4);
+
   scene = new Scene(600, 600, sceneDimensions, paletteCount);
 
   // create a random palette

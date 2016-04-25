@@ -11,7 +11,7 @@
   stopPDFCheck()
   adjustScene()
   listFileNames()
-  getExtension()
+  getFileExtension()
   
   --------------------------
 */
@@ -56,19 +56,10 @@ class Scene {
     canvasWidth = wide;
     canvasHeight = high;
     paletteCount = count;
-
     if (dim == 3) {
-      size(canvasWidth, canvasHeight, OPENGL);
       is3D = true;
-    } else {
-      size(canvasWidth, canvasHeight, JAVA2D);
     }
-
-    // for some reason it seems as if both of these hints are necessary for true 4x sampling
-    smooth();
-    hint(DISABLE_OPENGL_2X_SMOOTH);
-    hint(ENABLE_OPENGL_4X_SMOOTH);
-  }
+}
 
   void createPalette() {
     // Create an off-screen buffer.
@@ -294,7 +285,7 @@ ArrayList listFileNames(String dir) {
 
     // run through and remove files that don't match the extension
     for (int i = 0; i < names.length; i++) {
-      String fileExt = getExtension(names[i]);
+      String fileExt = getFileExtension(names[i]);
       if ((fileExt.toLowerCase().equals("png")) || (fileExt.toLowerCase().equals("jpg")) || (fileExt.toLowerCase().equals("gif"))) {
         names2.add(names[i]);
       };
@@ -310,7 +301,7 @@ ArrayList listFileNames(String dir) {
 
 
 // get the file extension of the document
-String getExtension(String file) {
+String getFileExtension(String file) {
   return file.substring(file.length() - 3).toLowerCase();
 };
 
